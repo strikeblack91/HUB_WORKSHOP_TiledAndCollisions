@@ -10,4 +10,7 @@ Today we are going to use JSON files, to generate some collisions in C, that you
 
 [Download Tiled](https://www.mapeditor.org/)
 
-## Wow
+## 2. Step
+
+Create a Tileset by using the assets into the **assets** diretory.
+*(Feel free to use your own assets)*
