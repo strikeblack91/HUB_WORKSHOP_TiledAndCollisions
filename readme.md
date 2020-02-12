@@ -8,6 +8,6 @@ Today we are going to use JSON files, to generate some collisions in C, that you
 
 ## 1. Step
 
-Download Tiled : https://www.mapeditor.org/
+[Download Tiled](https://www.mapeditor.org/)
 
 ## Wow
