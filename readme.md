@@ -24,7 +24,7 @@ Create a map with your differents Tileset.\
 
 Export you map as PNG. Now you can use your map in your game ! **GG.**
 
-# Collisions
+# Python
 
 We know that Tiled can generate JSON files with severals information about the layers, so we will use these informations to create an array of collisions in C !\
 Let's use Python, which is a very easy programming language.
@@ -52,7 +52,7 @@ Let's do some simple math calculs to use our array of collision. It's really eas
 
 ## Step. 1
 
-Create a main, and put your map as background, by using CSFML.\
+Create a main, and put your map as background, by using CSFML.
 
 ## Step. 2
 
@@ -63,11 +63,11 @@ Then create some event to make your character movable.
 
 Create a function with is going to return a boolean called *isCollision*.\
 Below, an exemple of how could be the prototype, and a math calculation to know where you are in the array.\
-\
+
 ```c
 bool isCollision(enum E_DIRECTION direction, sfVector2f sprite_position);
 ```
-\
+
 ```c
 int x = position.x / 16 /*(size of a tile)*/;
 int y = position.y / 16;
