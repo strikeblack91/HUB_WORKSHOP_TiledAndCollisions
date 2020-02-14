@@ -20,7 +20,7 @@ Create a Tileset by using the assets into the **./assets** directory.\
 Create a map with your differents Tileset.\
 *(Here a tips: You should create a layer wich should only contain the objects that you can collide with.)*
 
-## Step. 3
+## Step. 4
 
 Export you map as PNG. Now you can use your map in your game ! **GG.**
 
@@ -61,8 +61,8 @@ Then create some event to make your character movable.
 
 ## Step. 3
 
-Create a function with is going to return a boolean called *isCollision*.\
-Below, an exemple of how could be the prototype, and a math calculation to know where you are in the array.\
+Create a function which is going to parse the array and detect collisions and use it.\
+Below, an exemple of how could be the prototype of the function, and a math calculation to know where you are in the array.\
 
 ```c
 bool isCollision(enum E_DIRECTION direction, sfVector2f sprite_position);
