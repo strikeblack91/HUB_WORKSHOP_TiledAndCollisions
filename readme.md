@@ -36,7 +36,7 @@ With Tiled, export a JSON file of your map.
 ## Step. 2
 
 Create a Python script which is going to open a JSON file and print the differents names of the layers.\
-[Here a full tutoriel to parse JSON files with Python](https://fr.lmgtfy.com/?q=open%20json%20file%20python)
+[Here a full tutoriel to parse JSON files with Python](https://en.lmgtfy.com/?q=open%20json%20file%20python)
 
 ## Step. 3
 
@@ -62,7 +62,7 @@ Then create some event to make your character movable.
 ## Step. 3
 
 Create a function which is going to parse the array and detect collisions and use it.\
-Below, an exemple of how could be the prototype of the function, and a math calculation to know where you are in the array.\
+Below, an exemple of how could be the prototype of the function, and a math calculation to know where you are in the array.
 
 ```c
 bool isCollision(enum E_DIRECTION direction, sfVector2f sprite_position);
