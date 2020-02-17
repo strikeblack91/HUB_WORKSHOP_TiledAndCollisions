@@ -69,8 +69,8 @@ bool isCollision(enum E_DIRECTION direction, sfVector2f sprite_position);
 ```
 
 ```c
-int x = position.x / 16 /*(size of a tile)*/;
-int y = position.y / 16;
+int x = sprite_position.x / 16 /*(size of a tile)*/;
+int y = sprite_position.y / 16;
 ```
 
 ## Step. 4
